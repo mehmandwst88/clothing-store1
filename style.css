@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 250px;
+    height: 100vh;
+
+    background-color: #eeeeee;
+}
+
+.menu-button {
+    position: fixed;
+    top: 20px;
+    right: 270px;
+
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menu-button.closed {
+    right: 20px;
+}
+
+aside.closed {
+    width: 0;
+    overflow: hidden;
+}
+
